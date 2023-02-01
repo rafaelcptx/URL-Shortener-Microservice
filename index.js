@@ -11,7 +11,7 @@ app.get("/", function (req, res) {
 });
 
 const urls = {};
-let counter = 1;
+let counter = 0;
 
 app.post("/api/shorturl", (req, res) => {
   const url = req.body.url;
